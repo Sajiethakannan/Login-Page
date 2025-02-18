@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="page.css">
+</head>
+
+<body>
+    <div class="signup-container">
+        <div class="signup-box">
+            <h2><i class="fa-solid fa-user fa-1x"></i> Sign Up</h2>
+
+            <form id="signupForm" onsubmit="return validateSignup()">
+                <div class="form-group">
+                    <div class="textbox">
+                        <input type="text" id="username" placeholder="Username" name="username" required>
+                    </div>
+                    <div class="textbox">
+                        <input type="password" id="password" placeholder="Password" name="password" required>
+                    </div>
+                    <div class="textbox">
+                        <input type="password" id="confirmPassword" placeholder="Confirm Password"
+                            name="confirmPassword" required>
+                    </div>
+                    <div class="additional-links">
+                        <a href="login.html" class="login">Already have an account? Login</a>
+                    </div>
+                    <button type="submit" class="btn">Sign Up</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script src="sign.js"></script>
+</body>
+
+</html>
